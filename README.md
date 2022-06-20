@@ -62,8 +62,7 @@ cnpm i ts-node -D
 执行启动命令
 ```
 npm  run dev
-``
-
+```
 如果报错 Error: Cannot find module 'typescript' 从新下载
 ```
 npm i -g typescript
@@ -80,5 +79,10 @@ cnpm install parcel-bundler --save-dev
 yarn starParcel
 //生成dist  文件
 文件一直启动
-Server running at http://localhost:1234 
+Server running at http://localhost:1234  
+```
+
+# 类: 
+```
+
 ```
