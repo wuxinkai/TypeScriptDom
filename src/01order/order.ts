@@ -1,5 +1,7 @@
 import OrderDetail from "./orderDetail";
 class Order {
+    // public第一步代表定义了一个属性，
+    // 第二部默认构造函数会给这个属性赋值
     public orderId: number = 0
     public date: Date = new Date();
     public custname: string = "";

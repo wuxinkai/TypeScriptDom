@@ -2,7 +2,7 @@
 class GanTanHaos {
     //  TS4真对不知道是什么类型用感叹号表示
     public price2: number | undefined;
-    public price!: number;
+    public price!: number; //Ts4 新特性，不用给初始值了。 
     public count!: number;
     constructor( price_: number, count_: number,) {
 
@@ -21,6 +21,6 @@ class GanTanHaos {
     // }
 }
 
-
+ 
 var gthData = new GanTanHaos(20, 30)
 console.log(gthData.getTotal())
